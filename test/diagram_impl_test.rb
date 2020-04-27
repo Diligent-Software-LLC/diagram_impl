@@ -5,6 +5,9 @@ require_relative 'test_helper'
 #   Tests the Diagram class.
 class DiagramTest < Minitest::Test
 
+  # Constants
+  CLASS = Diagram
+
   # test_conf_doc_f_ex().
   # @description
   #   The .travis.yml, CODE_OF_CONDUCT.md, Gemfile, LICENSE.txt, README.md,

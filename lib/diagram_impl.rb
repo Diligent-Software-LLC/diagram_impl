@@ -2,6 +2,8 @@
 # under the GNU General Public License, Version 3. Refer LICENSE.txt.
 
 require_relative "diagram_impl/version"
+require 'node'
+require 'linked_list'
 
 # Diagram.
 # @class_description
@@ -86,5 +88,12 @@ class Diagram
   def self.space()
     return SPACE
   end
+
+  # Private constants
+  BACKWARD_ARROW = '<--'.freeze()
+  FORWARD_ARROW  = '-->'.freeze()
+  PIPE           = '|'.freeze()
+  SPACE          = ' '.freeze()
+  DIAGRAMMABLE   = Set[Node, LinkedList].freeze()
 
 end
