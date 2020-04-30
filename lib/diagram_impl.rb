@@ -8,9 +8,7 @@ require 'linked_list'
 # Diagram.
 # @class_description
 #   A Diagram library's implementation.
-class Diagram
-
-  undef :initialize
+class Diagram < DiagramInt
 
   # self.diagrammable().
   # @description
