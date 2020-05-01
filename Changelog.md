@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.1.1, 2020-05-01
+
+### Added
+
+### Edited
+
+### Fixed
+
+- 'require'd Set.
+
 ## v0.1.0, 2020-04-30
 
 ### Added

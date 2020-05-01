@@ -8,12 +8,13 @@ Gem::Specification.new do |spec|
   spec.authors               = ["Diligent Software LLC"]
   spec.email                 = ["contact@diligentsoftware.org"]
   spec.summary               = %q{A Diagram library's implementation.}
-  spec.description           = %q{A Diagram library's implementation. Donations support
-continuous improvement and maintenance. The aim is a reliable, integrable,
-and endurable Diagram library. Make a donation at the project's collective
-page: https://opencollective.com/diagram. One-time and recurring donations
-are available at $1, $2, $4, $8, and $16. Greatly appreciated.}
-  spec.homepage              = "https://docs.diligentsoftware.org/diagram-1/implementation"
+  spec.description           = %q{A Diagram library's implementation. Donations
+ support continuous improvement and maintenance. The aim is a reliable,
+integrable, and endurable Diagram library. Make a donation at the project's
+collective page: https://opencollective.com/diagram. One-time and recurring
+donations are available at $1, $2, $4, $8, and $16. Greatly appreciated.}
+  spec.homepage              =
+      "https://docs.diligentsoftware.org/diagram-1/implementation"
   spec.license               = "GPL-3.0"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.6.5")
 
@@ -22,7 +23,8 @@ are available at $1, $2, $4, $8, and $16. Greatly appreciated.}
   spec.metadata['source_code_uri'] =
       "https://github.com/Diligent-Software-LLC/diagram_impl"
   spec.metadata['changelog_uri']   =
-      "https://docs.diligentsoftware.org/diagram-1/packages#implementation_changelog"
+      "https://docs.diligentsoftware.org/diagram-1/" +
+          "packages#implementation_changelog"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been 

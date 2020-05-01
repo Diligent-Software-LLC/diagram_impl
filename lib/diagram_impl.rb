@@ -4,6 +4,7 @@
 require_relative "diagram_impl/version"
 require 'node'
 require 'linked_list'
+require 'set'
 
 # Diagram.
 # @class_description
