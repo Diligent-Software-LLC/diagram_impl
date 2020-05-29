@@ -6,3 +6,9 @@ rvm:
   - 2.6.5
 before_install:
   - gem install bundler -v 2.1.2
+  - gem install diagram_int
+  - gem install linked_list_comp
+  - gem install node_comp
+  - gem install data_library
+  - gem install node_error
+  - gem install diagram_factory_comp
