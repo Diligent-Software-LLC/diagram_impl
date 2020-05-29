@@ -4,12 +4,12 @@ A Diagram library's implementation. Implements the Diagram interface.
 
 ## Installation
 
-- Refer the Diagram Implementation's 
+- Refer Implementation's 
 [Packages](https://docs.diligentsoftware.org/diagram-1/packages#implementation).
 
 ## Documentation
 
-- Refer the Implementation 
+- Refer Implementation's 
 [Homepage](https://docs.diligentsoftware.org/diagram-1/implementation).
 
 ## Contributing
