@@ -9,7 +9,7 @@ require 'set'
 # Diagram.
 # @class_description
 #   A Diagram library's implementation.
-class Diagram < DiagramInt
+class Diagram #< DiagramInt
 
   # self.diagrammable().
   # @description

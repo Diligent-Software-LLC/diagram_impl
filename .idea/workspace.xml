@@ -25,10 +25,7 @@
     <option name="showStatusBarWidget" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1aa8f2b6-9ba5-4f22-ae89-1c9973fea074" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/Changelog.md" afterDir="false" />
-    </list>
+    <list default="true" id="1aa8f2b6-9ba5-4f22-ae89-1c9973fea074" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -162,7 +159,7 @@
       <workItem from="1588355737294" duration="2000" />
       <workItem from="1588355760825" duration="730000" />
       <workItem from="1590773074374" duration="1771000" />
-      <workItem from="1590775926381" duration="861000" />
+      <workItem from="1590775926381" duration="1078000" />
     </task>
     <task id="LOCAL-00001" summary="Setup Complete&#10;&#10;Added version.rb. Added diagram_impl.rb. Added diagram_impl_test.rb. Added Gem Specification file. Added README.md.">
       <created>1588013790401</created>
@@ -213,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590776613722</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Prepare Deployment&#10;&#10;Updated Changelog.md.">
+      <created>1590780571349</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1590780571349</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
         <option name="defaultSearch" value="project: Diagram Subsystem:{ No Subsystem } Component: Implementation Sprints: 3 State: {Prepare Deployment}" />
@@ -245,17 +249,18 @@
     <MESSAGE value="Prepare Deployment&#10;&#10;'require'd Set. Patch version." />
     <MESSAGE value="Setup Complete&#10;&#10;Bumped Minor Version. Updated dependencies." />
     <MESSAGE value="Development Complete&#10;&#10;Deleted node and linked_list 'require'ments. 'require'd node_comp and linked_list_comp. Added test coverage. Updated formatting. Updated dependencies." />
-    <option name="LAST_COMMIT_MESSAGE" value="Development Complete&#10;&#10;Deleted node and linked_list 'require'ments. 'require'd node_comp and linked_list_comp. Added test coverage. Updated formatting. Updated dependencies." />
+    <MESSAGE value="Prepare Deployment&#10;&#10;Updated Changelog.md." />
+    <option name="LAST_COMMIT_MESSAGE" value="Prepare Deployment&#10;&#10;Updated Changelog.md." />
   </component>
   <component name="WindowStateProjectService">
     <state x="443" y="175" key="#Servers" timestamp="1588003187269">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="443" y="175" key="#Servers/0.23.1680.975@0.23.1680.975" timestamp="1588003187269" />
-    <state x="69" y="50" width="1540" height="903" key="CommitChangelistDialog2" timestamp="1590776613046">
+    <state x="69" y="50" width="1540" height="903" key="CommitChangelistDialog2" timestamp="1590780570968">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="69" y="50" width="1540" height="903" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1590776613046" />
+    <state x="69" y="50" width="1540" height="903" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1590780570968" />
     <state x="472" y="434" key="GitRewordDialog" timestamp="1588259197437">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
@@ -276,10 +281,10 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state width="1545" height="270" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1590776633600" />
-    <state x="486" y="250" key="Vcs.Push.Dialog.v2" timestamp="1588356460423">
+    <state x="486" y="250" key="Vcs.Push.Dialog.v2" timestamp="1590780602283">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="486" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1588356460423" />
+    <state x="486" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1590780602283" />
     <state x="435" y="235" width="816" height="550" key="find.popup" timestamp="1588003481508">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
