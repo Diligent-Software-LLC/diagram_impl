@@ -2,8 +2,8 @@
 # under the GNU General Public License, Version 3. Refer LICENSE.txt.
 
 require_relative "diagram_impl/version"
-require 'node'
-require 'linked_list'
+require 'node_comp'
+require 'linked_list_comp'
 require 'set'
 
 # Diagram.
@@ -88,11 +88,16 @@ class Diagram < DiagramInt
     return SPACE
   end
 
-  # Private constants
+  # Private constants.
   BACKWARD_ARROW = '<--'.freeze()
   FORWARD_ARROW  = '-->'.freeze()
   PIPE           = '|'.freeze()
   SPACE          = ' '.freeze()
   DIAGRAMMABLE   = Set[Node, LinkedList].freeze()
+  private_constant :BACKWARD_ARROW
+  private_constant :FORWARD_ARROW
+  private_constant :PIPE
+  private_constant :SPACE
+  private_constant :DIAGRAMMABLE
 
 end

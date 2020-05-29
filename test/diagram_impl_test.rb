@@ -5,13 +5,14 @@ require_relative 'test_helper'
 #   Tests the Diagram class.
 class DiagramTest < Minitest::Test
 
-  # Constants
+  # Constants.
   CLASS = Diagram
 
   # test_conf_doc_f_ex().
   # @description
   #   The .travis.yml, CODE_OF_CONDUCT.md, Gemfile, LICENSE.txt, README.md,
-  #   and .yardopts files exist.
+  #   .yardopts, .gitignore, Changelog.md, CODE_OF_CONDUCT.md,
+  #   diagram_impl.gemspec, Gemfile.lock, and Rakefile files exist.
   def test_conf_doc_f_ex()
 
     assert_path_exists('.travis.yml')
@@ -20,6 +21,12 @@ class DiagramTest < Minitest::Test
     assert_path_exists('LICENSE.txt')
     assert_path_exists('README.md')
     assert_path_exists('.yardopts')
+    assert_path_exists('.gitignore')
+    assert_path_exists('Changelog.md')
+    assert_path_exists('CODE_OF_CONDUCT.md')
+    assert_path_exists('diagram_impl.gemspec')
+    assert_path_exists('Gemfile.lock')
+    assert_path_exists('Rakefile')
 
   end
 
@@ -38,7 +45,7 @@ class DiagramTest < Minitest::Test
     @ll   = LinkedList.new(nil)
   end
 
-  # Diagram.diagrammable()
+  # Diagram.diagrammable().
 
   # test_diagrammable_x().
   # @description
@@ -48,7 +55,7 @@ class DiagramTest < Minitest::Test
     assert_equal(expected, CLASS.diagrammable())
   end
 
-  # Diagram.verify_diagrammable(inst = nil)
+  # Diagram.verify_diagrammable(inst = nil).
 
   # test_vd_x1().
   # @description
@@ -65,7 +72,7 @@ class DiagramTest < Minitest::Test
     refute_operator(CLASS, 'verify_diagrammable', 6)
   end
 
-  # Diagram.build(inst = nil)
+  # Diagram.build(inst = nil).
 
   # test_build_x1().
   # @description
@@ -96,7 +103,7 @@ class DiagramTest < Minitest::Test
     assert_raises(ArgumentError) { Diagram.build(6) }
   end
 
-  # initialize()
+  # initialize().
 
   # test_no_init().
   # @description
@@ -105,7 +112,7 @@ class DiagramTest < Minitest::Test
     refute_respond_to(CLASS, :initialize)
   end
 
-  # Diagram.backward_arrow()
+  # Diagram.backward_arrow().
 
   # test_cba_x().
   # @description
@@ -115,7 +122,7 @@ class DiagramTest < Minitest::Test
     assert_equal(expected, CLASS.backward_arrow())
   end
 
-  # Diagram.forward_arrow()
+  # Diagram.forward_arrow().
 
   # test_cfa_x().
   # @description
@@ -125,7 +132,7 @@ class DiagramTest < Minitest::Test
     assert_equal(expected, Diagram.forward_arrow())
   end
 
-  # Diagram.pipe()
+  # Diagram.pipe().
 
   # test_cp_x().
   # @description
@@ -135,7 +142,7 @@ class DiagramTest < Minitest::Test
     assert_equal(expected, CLASS.pipe())
   end
 
-  # Diagram.space()
+  # Diagram.space().
 
   # test_cs_x().
   # @description

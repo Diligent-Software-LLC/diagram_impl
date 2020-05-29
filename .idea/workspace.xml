@@ -29,9 +29,10 @@
       <change beforePath="$PROJECT_DIR$/.idea/diagram_impl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/diagram_impl.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/diagram_impl.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/diagram_impl.gemspec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/diagram_impl/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/diagram_impl/version.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/diagram_impl.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/diagram_impl.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/diagram_impl_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/diagram_impl_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_helper.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +166,8 @@
       <workItem from="1588257988382" duration="1806000" />
       <workItem from="1588355737294" duration="2000" />
       <workItem from="1588355760825" duration="730000" />
-      <workItem from="1590773074374" duration="1031000" />
+      <workItem from="1590773074374" duration="1771000" />
+      <workItem from="1590775926381" duration="488000" />
     </task>
     <task id="LOCAL-00001" summary="Setup Complete&#10;&#10;Added version.rb. Added diagram_impl.rb. Added diagram_impl_test.rb. Added Gem Specification file. Added README.md.">
       <created>1588013790401</created>
@@ -202,10 +204,17 @@
       <option name="project" value="LOCAL" />
       <updated>1588356205456</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Setup Complete&#10;&#10;Bumped Minor Version. Updated dependencies.">
+      <created>1590774667705</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1590774667706</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
-        <option name="defaultSearch" value="project: Diagram Subsystem:{ No Subsystem } Component: Implementation Sprints: 3 State: {Setup}" />
+        <option name="defaultSearch" value="project: Diagram Subsystem:{ No Subsystem } Component: Implementation Sprints: 3 State: {Development}" />
         <username>admin</username>
       </YouTrack>
     </servers>
@@ -232,38 +241,38 @@
     <MESSAGE value="Development Complete&#10;&#10;'require'd diagram_int and subclassed. Deleted the 'undef' statement in diagram_impl.rb. Installed diagram_int." />
     <MESSAGE value="Prepare Deployment&#10;&#10;Updated Changelog.md. Deleted Travis CI deployment settings." />
     <MESSAGE value="Prepare Deployment&#10;&#10;'require'd Set. Patch version." />
-    <option name="LAST_COMMIT_MESSAGE" value="Prepare Deployment&#10;&#10;'require'd Set. Patch version." />
-    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="Setup Complete&#10;&#10;Bumped Minor Version. Updated dependencies." />
+    <option name="LAST_COMMIT_MESSAGE" value="Setup Complete&#10;&#10;Bumped Minor Version. Updated dependencies." />
   </component>
   <component name="WindowStateProjectService">
     <state x="443" y="175" key="#Servers" timestamp="1588003187269">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="443" y="175" key="#Servers/0.23.1680.975@0.23.1680.975" timestamp="1588003187269" />
-    <state x="129" y="72" width="1450" height="875" key="CommitChangelistDialog2" timestamp="1588356205178">
+    <state x="69" y="50" width="1540" height="903" key="CommitChangelistDialog2" timestamp="1590774667031">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="129" y="72" width="1450" height="875" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1588356205178" />
+    <state x="69" y="50" width="1540" height="903" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1590774667031" />
     <state x="472" y="434" key="GitRewordDialog" timestamp="1588259197437">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="472" y="434" key="GitRewordDialog/0.23.1680.975@0.23.1680.975" timestamp="1588259197437" />
-    <state width="1545" height="270" key="GridCell.Tab.0.bottom" timestamp="1588356503377">
+    <state width="1545" height="270" key="GridCell.Tab.0.bottom" timestamp="1590776070152">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1545" height="270" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1588356503377" />
-    <state width="1545" height="270" key="GridCell.Tab.0.center" timestamp="1588356503376">
+    <state width="1545" height="270" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1590776070152" />
+    <state width="1545" height="270" key="GridCell.Tab.0.center" timestamp="1590776070151">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1545" height="270" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1588356503376" />
-    <state width="1545" height="270" key="GridCell.Tab.0.left" timestamp="1588356503376">
+    <state width="1545" height="270" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1590776070151" />
+    <state width="1545" height="270" key="GridCell.Tab.0.left" timestamp="1590776070151">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1545" height="270" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1588356503376" />
-    <state width="1545" height="270" key="GridCell.Tab.0.right" timestamp="1588356503376">
+    <state width="1545" height="270" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1590776070151" />
+    <state width="1545" height="270" key="GridCell.Tab.0.right" timestamp="1590776070152">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1545" height="270" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1588356503376" />
+    <state width="1545" height="270" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1590776070152" />
     <state x="486" y="250" key="Vcs.Push.Dialog.v2" timestamp="1588356460423">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
@@ -276,13 +285,13 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="551" y="235" width="670" height="675" key="run.anything.popup/0.23.1680.975@0.23.1680.975" timestamp="1588271762288" />
-    <state x="508" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1590774479046">
+    <state x="508" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1590774703846">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="508" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1590774479046" />
+    <state x="508" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1590774703846" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/diagram_impl@test_diagrammable_x.rcov" NAME="test_diagrammable_x Coverage Results" MODIFIED="1588014117490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="diagram_impl" />
-    <SUITE FILE_PATH="coverage/diagram_impl@DiagramTest.rcov" NAME="DiagramTest Coverage Results" MODIFIED="1588355863393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="diagram_impl" />
+    <SUITE FILE_PATH="coverage/diagram_impl@DiagramTest.rcov" NAME="DiagramTest Coverage Results" MODIFIED="1590776070082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="diagram_impl" />
   </component>
 </project>
