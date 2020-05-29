@@ -1,5 +1,20 @@
 # Changelog
 
+## v0.2.0, 2020-05-29
+
+### Added
+
+- 'require'd node_comp and linked_list_comp.
+- Test coverage.
+
+### Edited
+
+- Updated dependencies.
+- Deleted node and linked_list 'require'ments.
+- Test file formatting.
+
+### Fixed
+
 ## v0.1.1, 2020-05-01
 
 ### Added
