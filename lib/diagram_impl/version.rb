@@ -7,5 +7,5 @@ require 'diagram_int'
 # @class_description
 #   A Diagram library's implementation. Implements Diagram's interface.
 class Diagram < DiagramInt
-  VERSION = '0.2.0'.freeze()
+  VERSION = '1.0.0'.freeze()
 end

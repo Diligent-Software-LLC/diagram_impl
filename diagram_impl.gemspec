@@ -42,7 +42,7 @@ donations are available at $1, $2, $4, $8, and $16. Greatly appreciated.}
   spec.add_development_dependency 'bundler', '~> 2.1'
   spec.add_development_dependency 'simplecov', '~> 0'
   spec.add_development_dependency 'diagram_int', '~> 0'
-  spec.add_development_dependency 'linked_list_comp', '~> 0'
+  spec.add_development_dependency 'linked_list_comp', '~> 1'
   spec.add_development_dependency 'node_comp', '~> 1'
   spec.add_development_dependency 'data_library', '~> 0'
   spec.add_development_dependency 'node_error', '~> 4'
