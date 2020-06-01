@@ -1,5 +1,15 @@
 # Changelog
 
+## v1.0.0, 2020-06-01
+
+### Added
+
+### Edited
+
+- Bumped linked_list_comp dependency.
+
+### Fixed
+
 ## v0.2.0, 2020-05-29
 
 ### Added

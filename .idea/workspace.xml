@@ -25,9 +25,8 @@
     <option name="showStatusBarWidget" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1aa8f2b6-9ba5-4f22-ae89-1c9973fea074" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/diagram_impl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/diagram_impl.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+    <list default="true" id="1aa8f2b6-9ba5-4f22-ae89-1c9973fea074" name="Default Changelist" comment="fixup! Development Complete">
+      <change beforePath="$PROJECT_DIR$/Changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/Changelog.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +162,7 @@
       <workItem from="1588355760825" duration="730000" />
       <workItem from="1590773074374" duration="1771000" />
       <workItem from="1590775926381" duration="2033000" />
-      <workItem from="1591037423887" duration="2542000" />
+      <workItem from="1591037423887" duration="3076000" />
     </task>
     <task id="LOCAL-00001" summary="Setup Complete&#10;&#10;Added version.rb. Added diagram_impl.rb. Added diagram_impl_test.rb. Added Gem Specification file. Added README.md.">
       <created>1588013790401</created>
@@ -249,10 +248,17 @@
       <option name="project" value="LOCAL" />
       <updated>1591038536812</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Development Complete&#10;&#10;No observable changes.">
+      <created>1591040163242</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1591040163242</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
-        <option name="defaultSearch" value="project: Diagram Subsystem:{ No Subsystem } Component: Implementation Sprints: 4 State: {Development}" />
+        <option name="defaultSearch" value="project: Diagram Subsystem:{ No Subsystem } Component: Implementation Sprints: 4 State: {Prepare Deployment}" />
         <username>admin</username>
       </YouTrack>
     </servers>
@@ -284,21 +290,22 @@
     <MESSAGE value="Prepare Deployment&#10;&#10;Updated Changelog.md." />
     <MESSAGE value="Prepare Deployment&#10;&#10;Testing dependency bug." />
     <MESSAGE value="Setup Complete&#10;&#10;Bumped Major Version. Bumped linked_list_comp dependency version." />
-    <option name="LAST_COMMIT_MESSAGE" value="Setup Complete&#10;&#10;Bumped Major Version. Bumped linked_list_comp dependency version." />
+    <MESSAGE value="Development Complete&#10;&#10;Gemfile.lock updated." />
+    <option name="LAST_COMMIT_MESSAGE" value="Development Complete&#10;&#10;Gemfile.lock updated." />
   </component>
   <component name="WindowStateProjectService">
     <state x="443" y="175" key="#Servers" timestamp="1588003187269">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="443" y="175" key="#Servers/0.23.1680.975@0.23.1680.975" timestamp="1588003187269" />
-    <state x="69" y="50" width="1540" height="903" key="CommitChangelistDialog2" timestamp="1591038534564">
+    <state x="69" y="50" width="1540" height="903" key="CommitChangelistDialog2" timestamp="1591040194551">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="69" y="50" width="1540" height="903" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1591038534564" />
-    <state x="472" y="434" key="GitRewordDialog" timestamp="1588259197437">
+    <state x="69" y="50" width="1540" height="903" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1591040194551" />
+    <state x="472" y="434" key="GitRewordDialog" timestamp="1591040209698">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="472" y="434" key="GitRewordDialog/0.23.1680.975@0.23.1680.975" timestamp="1588259197437" />
+    <state x="472" y="434" key="GitRewordDialog/0.23.1680.975@0.23.1680.975" timestamp="1591040209698" />
     <state width="1545" height="270" key="GridCell.Tab.0.bottom" timestamp="1591039959924">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
@@ -327,10 +334,10 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="551" y="235" width="670" height="675" key="run.anything.popup/0.23.1680.975@0.23.1680.975" timestamp="1588271762288" />
-    <state x="508" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1591038313851">
+    <state x="508" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1591040266695">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="508" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1591038313851" />
+    <state x="508" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1591040266695" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/diagram_impl@test_diagrammable_x.rcov" NAME="test_diagrammable_x Coverage Results" MODIFIED="1588014117490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="diagram_impl" />
